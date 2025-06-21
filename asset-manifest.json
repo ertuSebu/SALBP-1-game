@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SALBP-1-game/static/css/main.439d5f2d.css",
+    "main.js": "/SALBP-1-game/static/js/main.1160d212.js",
+    "index.html": "/SALBP-1-game/index.html",
+    "main.439d5f2d.css.map": "/SALBP-1-game/static/css/main.439d5f2d.css.map",
+    "main.1160d212.js.map": "/SALBP-1-game/static/js/main.1160d212.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.439d5f2d.css",
+    "static/js/main.1160d212.js"
+  ]
+}
