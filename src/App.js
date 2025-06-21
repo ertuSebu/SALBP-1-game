@@ -77,7 +77,7 @@ export default function App() {
   const [currentGraph, setCurrentGraph] = useState("i1");
 
   useEffect(() => {
-    fetch("/instance/list.json")
+    fetch("instance/list.json")
       .then((r) => r.json())
       .then((data) => {
         const cleaned = data.map((name) =>
@@ -90,7 +90,7 @@ export default function App() {
 
   useEffect(() => {
     if (!currentGraph) return;
-    fetch(`/instance/${currentGraph}.alb`)
+    fetch(`instance/${currentGraph}.alb`)
       .then((r) => {
         if (!r.ok) throw new Error(".alb file not found");
         return r.text();
